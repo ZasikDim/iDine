@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     
     let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
-
     
     var body: some View {
         NavigationView {
@@ -18,13 +17,13 @@ struct ContentView: View {
                 ForEach(menu) { section in
                     Section(header: Text(section.name)) {
                         ForEach(section.items) { item in
-                            Text(item.name)
+                            ItemRow(item: item)
                         }
                     }
                 }
             }
             .navigationTitle("Menu")
-            .listStyle(.grouped)
+            .listStyle(GroupedListStyle())
         }
 
     }

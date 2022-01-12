@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC05C86278F23F800A4419D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC05C85278F23F800A4419D /* ItemRow.swift */; };
 		0FD81E73278E0E7F00E463DB /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD81E72278E0E7F00E463DB /* iDineApp.swift */; };
 		0FD81E75278E0E7F00E463DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD81E74278E0E7F00E463DB /* ContentView.swift */; };
 		0FD81E7A278E0E8000E463DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD81E79278E0E8000E463DB /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC05C85278F23F800A4419D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		0FD81E6F278E0E7F00E463DB /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD81E72278E0E7F00E463DB /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		0FD81E74278E0E7F00E463DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				0FD81E72278E0E7F00E463DB /* iDineApp.swift */,
 				0FD81E74278E0E7F00E463DB /* ContentView.swift */,
+				0FC05C85278F23F800A4419D /* ItemRow.swift */,
 				0FD81E82278E0FAF00E463DB /* Helper.swift */,
 				0FD81E85278E0FD100E463DB /* Menu.swift */,
 				0FD81E84278E0FD100E463DB /* Order.swift */,
@@ -153,6 +156,7 @@
 				0FD81E75278E0E7F00E463DB /* ContentView.swift in Sources */,
 				0FD81E73278E0E7F00E463DB /* iDineApp.swift in Sources */,
 				0FD81E86278E0FD100E463DB /* Order.swift in Sources */,
+				0FC05C86278F23F800A4419D /* ItemRow.swift in Sources */,
 				0FD81E83278E0FAF00E463DB /* Helper.swift in Sources */,
 				0FD81E87278E0FD100E463DB /* Menu.swift in Sources */,
 			);
